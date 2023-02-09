@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balance Between Nature and Life</title>
+  <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+  <script src="../Bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="../Bootstrap/carousel/carousel.css">
+  <style>
+    .row:hover {
+      background-color: aliceblue;
+    }
+
+    #SDGCard:hover {
+      background-color: rgb(213, 250, 239);
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- navBar -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Green Planet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul id="navitem" class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#SDGs">SDGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#carbon">Carbon Sink</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#satoyama">Satoyama</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form> -->
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- slides -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../pictures/global.jpeg" class="bd-placeholder-img" width="100%" height="100%" alt="Global Green">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Our Earth is A Green Planet</h1>
+              <p>The Sustainable Goals (SDGs) are an urgent call for action to the environment and persons</p>
+              <p><a class="btn btn-lg btn-secondary" href="#SDGs">17 SDGs</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <img src="../pictures/10903_01-800x600.png" class="bd-placeholder-img" width="100%" height="100%"
+            alt="Carbon Exchange">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Forest Palys a Big Role in Carbon Exchange</h1>
+              <p>Forest Which Still Growup Supply Natural Carbon Sink Resource</p>
+              <p><a class="btn btn-lg btn-secondary" href="#carbon">Carbon Sink</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <img src="../pictures/1410910.jpg" class="bd-placeholder-img" width="100%" height="100%" alt="Satoyama">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Satoyama Makes Us Close To Nature</h1>
+              <p>Satoyama Replcae Our Concepts of the Relationship Between Environment and People</p>
+              <p><a class="btn btn-lg btn-secondary" href="#satoyama">Satoyama Initiative</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- SDGs -->
+    <hr class="featurette-divider">
+    <h1 id="SDGs" style="text-align: center; background-color: grey; color: white;">Realize the Global Trend</h1>
+    <h1 style="text-align: center;">the Sustainable Development Goals</h1>
+    <br>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/1.jpg" alt="SDG1">
+          <div class="card-body">
+            <h5 class="card-title">SDG 1</h5>
+            <p class="card-text">終結貧窮： 消除各地一切形式的貧窮</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/2.jpg" alt="SDG2">
+          <div class="card-body">
+            <h5 class="card-title">SDG 2</h5>
+            <p class="card-text">消除飢餓： 確保糧食安全，消除飢餓，促進永續農業</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/3.jpg" alt="SDG3">
+          <div class="card-body">
+            <h5 class="card-title">SDG 3</h5>
+            <p class="card-text">健康與福祉： 確保及促進各年齡層健康生活與福祉</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/4.jpg" alt="SDG4">
+          <div class="card-body">
+            <h5 class="card-title">SDG 4</h5>
+            <p class="card-text">優質教育： 確保有教無類、公平以及高品質的教育，及提倡終身學習</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/5.jpg" alt="SDG5">
+          <div class="card-body">
+            <h5 class="card-title">SDG 5</h5>
+            <p class="card-text">性別平權： 實現性別平等，並賦予婦女權力</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/6.jpg" alt="SDG6">
+          <div class="card-body">
+            <h5 class="card-title">SDG 6</h5>
+            <p class="card-text">淨水及衛生： 確保所有人都能享有水、衛生及其永續管理</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/7.jpg" alt="SDG7">
+          <div class="card-body">
+            <h5 class="card-title">SDG 7</h5>
+            <p class="card-text">潔淨能源： 確保所有的人都可取得負擔得起、可靠、永續及現代的能源</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/8.jpg" alt="SDG8">
+          <div class="card-body">
+            <h5 class="card-title">SDG 8</h5>
+            <p class="card-text">合適的工作及經濟成長： 促進包容且永續的經濟成長，讓每個人都有一份好工作</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/9.jpg" alt="SDG9">
+          <div class="card-body">
+            <h5 class="card-title">SDG 9</h5>
+            <p class="card-text">基礎建設： 建立具有韌性的基礎建設，促進包容且永續的工業，並加速創新</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/10.jpg" alt="SDG10">
+          <div class="card-body">
+            <h5 class="card-title">SDG 10</h5>
+            <p class="card-text">減少不平等： 減少國內及國家間的不平等</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/11.jpg" alt="SDG11">
+          <div class="card-body">
+            <h5 class="card-title">SDG 11</h5>
+            <p class="card-text">永續城鄉： 建構具包容、安全、韌性及永續特質的城市與鄉村</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/12.jpg" alt="SDG12">
+          <div class="card-body">
+            <h5 class="card-title">SDG 12</h5>
+            <p class="card-text">消費及生產： 促進綠色經濟，確保永續消費及生產模式</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/13.jpg" alt="SDG13">
+          <div class="card-body">
+            <h5 class="card-title">SDG 13</h5>
+            <p class="card-text">氣候行動： 完備減緩調適行動，以因應氣候變遷及其影響</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/14.jpg" alt="SDG14">
+          <div class="card-body">
+            <h5 class="card-title">SDG 14</h5>
+            <p class="card-text">海洋生態： 保育及永續利用海洋生態系，以確保生物多樣性並防止海洋環境劣化</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/15.jpg" alt="SDG15">
+          <div class="card-body">
+            <h5 class="card-title">SDG 15</h5>
+            <p class="card-text">陸域生態： 保育及永續利用陸域生態系，確保生物多樣性並防止土地劣化</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/16.jpg" alt="SDG16">
+          <div class="card-body">
+            <h5 class="card-title">SDG 16</h5>
+            <p class="card-text">和平、正義： 促進和平多元的社會，確保司法平等，建立具公信力且廣納民意的體系</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img-top" src="../pictures/17.jpg" alt="SDG17">
+          <div class="card-body">
+            <h5 class="card-title">SDG 17</h5>
+            <p class="card-text">多元夥伴： 建立多元夥伴關係，協力促進永續願景</p>
+          </div>
+        </div>
+        <div id="SDGCard" class="card col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 14rem;">
+          <img class="card-img" src="../pictures/global-goals.png" alt="GlobalGoals">
+        </div>
+      </div>
+    </div>
+
+    <!-- Examples -->
+    <hr class="featurette-divider">
+
+    <h1 style="text-align: center;background-color: grey;color: white;">There Are Simple Ways to Help Our Environment
+    </h1>
+    <h1 style="text-align: center;">從小地方到大環境減少能源消耗</h1>
+    <br>
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading fw-normal lh-1">耗能設備汰換 <span class="text-muted">Just simple way we can
+              conduct.</span></h3>
+          <p class="lead">配合中央推動，補助服務業、旅館業、醫療院所、交通運輸業、機關學校、社區及家戶汰換老舊耗能設備，項目包括傳統燈管換成 LED 燈管、鼓勵家戶購置具有節能標章的大型家電，如冰箱及冷氣等。
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img width="400" height="400" src="../pictures/light.jpeg" alt="light">
+        </div>
+      </div>
+      <hr>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h3 class="featurette-heading fw-normal lh-1">水源永續管理 <span class="text-muted">Forest is the hometown of
+              water.</span></h3>
+          <p class="lead">
+            減少污染，消除廢棄物傾倒現象，把危險化學品和材料的排放減少到最低限度，將未經處理廢水比例減半，大幅增加全球廢棄物回收和安全再利用。保護和恢復與水有關的生態系統，包括山地、森林、濕地、河流、地下含水層和湖泊。</p>
+        </div>
+
+        <img class="col-md-5 order-md-1" src="../pictures/water.jpeg" alt="water">
+
+      </div>
+      <hr>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading fw-normal lh-1">智慧零碳建築 <span class="text-muted">Smart is not smart. Just use
+              eco-friendly methods</span></h3>
+          <p class="lead">
+            為能有效降低住商部門排放量，規劃推動新建物朝向零碳建築發展，導入建築能源履歷制度、智慧綠建築設計，確實掌握建築單位能耗，並鼓勵公有與民間建物使用循環建材，作為達到2050零碳建築與循環經濟之目標。</p>
+        </div>
+        <div class="col-md-5">
+          <img width="400" height="400" src="../pictures/building.jpeg" alt="building">
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    <div style="background-color: lightgrey; color:darkslategrey;">
+      <div class="container">
+        <h3>除了節能，我們能做的更多</h3>
+        <p>
+          要達到碳中和，除了減少能源消耗外，更要了解如何抵銷我們所排放的碳。
+        </p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- Carbon sink -->
+    <h1 id="carbon" style="text-align: center; background-color: grey; color: white;">Furthermore: 淨零排放</h1>
+    <h1 style="text-align: center;">瞭解何謂「天然碳匯」</h1>
+    <br>
+    <div class="container">
+      <div class="row">
+        <img class="col-md-6 order-md-2" src="../pictures/Net-zero-emissions.jpg" alt="net-zero">
+        <div class="col-md-6 order-md-1 overflow-scroll" style="height: 400px;">
+          <h3>淨零排放 ＝ 「正排放」及「負排放」相抵</h3>
+          <p class="lead">
+            「淨零」，我們所能做的就是兩種方法，第一就是儘量減少正排放的量，這就是我們一直強調的要節能減碳，目標就是要把正排放的量降低。以方法論而言，就是要盡可能的減少生產過程中各種的碳排放，像是用低碳能源取代化石能源、節省製程設備和空調的能源、省電等。
+            <br>
+            第二個方法就是盡可能地最大化負排放的量，這一部分有天然的、也有人工的，人工的技術還是待開發的部分。總之，要得到「淨零」的效果，就是要最小化正排放或是要最大化負排放，但是實際上是非常不容易的，原因在於負排放的量很難掌握。
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <img class="col-md-6" src="../pictures/forest.jpg" alt="Forest">
+        <div class="col-md-6 overflow-scroll" style="height: 400px;">
+          <h3>碳匯是儲存二氧化碳的「倉庫」，地球的天然倉庫包括森林、海洋、土壤</h3>
+          <p class="lead">
+            碳匯(carbon
+            sink)是儲存二氧化碳的天然或人工「倉庫」，地球最會儲存二氧化碳的天然倉庫就是森林，植物吸收空氣中的二氧化碳行光合作用，樹木可以把空氣中四公斤的二氧化碳轉成一公斤的木材，一棵樹木有生之年大概可以吸收900公斤的二氧化碳。
+            海洋中的藻類也是另一個天然固碳源，不過海上的二氧化碳可以自由來去，與樹木把二氧化碳轉換為木材形成固碳效果具有差異。土壤也可以吸收二氧化碳，一些企業也會收購休耕地的碳匯來達到碳中和目的。
+            <br>
+            然而，不是所有的森林都能形成碳匯，樹木吸收二氧化碳的能力在20年生會達到頂峰，接下來隨樹齡增加下降，到了60年生、80年生，將二氧化碳轉換成木材的能力就變得非常緩慢。
+            因此需要一些步驟來認證成長中的森林來形成碳匯達成碳中和。
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <img class="col-md-6 order-md-2" src="../pictures/renewable-energy-concept.jpg" alt="trade">
+        <div class="col-md-6 order-md-1 overflow-scroll" style="height: 400px;">
+          <h3>碳驗證標準VCS已經是全球最普及的森林碳權認證方式</h3>
+          <p class="lead">
+            是否有資格得到碳權，認證準則之一就是要確認這些樹木有在「工作」把空氣中的二氧化碳吸收掉。
+            國際上森林碳權很值錢，不過要將森林碳匯轉為碳權，需符合監測、報告與驗證機制(Monitoring, Reporting and Verification, MRV)。
+            京都議定書將造林與再造林活動納入其清潔發展機制(Clean Development Mechanism, CDM)計畫中，
+            一個碳權認證裡面至少有四個角色：遊戲規則制定者、申請者、輔導團隊、查驗單位。
+            <br>
+            非營利組織Verra是聯合國清潔發展機制下的審查人，扮演遊戲規則制定者的角色，並納入聯合國的CDM方法學作為碳驗證標準(Verified Carbon Standard,
+            VCS)，並兼查驗單位角色，自己給別人MRV，現在已經是全球最普及的森林碳權認證方式。
+          </p>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div style="background-color: lightgrey; color:darkslategrey;">
+      <div class="container">
+        <h3>森林，不只是倉庫</h3>
+        <p>
+          森林除了碳匯功能之外，還有水源涵養、淨化空氣、水土保持、逆轉土壤劣化、保持生物多樣性等價值。
+        </p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <!-- Satoyama -->
+    <h1 id="satoyama" style="text-align: center; background-color: grey; color: white;">the Great Way of How to Live
+    </h1>
+    <h1 style="text-align: center;">「里山倡議」人與自然可以好好生活</h1>
+    <div class="container">
+      <div class="card overflow-scroll" style="height: 1000px;">
+        <img class="card-img-top" src="../pictures/satoyama.jpg" alt="satoyama-view" title="日本－飛驒古川町老鎮" width="100%"
+          height="50%">
+        <div class="card-body">
+          <h3>什麼是「里山」？</h3>
+          <p class="card-text">
+            里山倡議（Satoyama Initiative） 是一項透過全球努力，旨在通過保護生物多樣性和人類福祉的方法實現「社會與自然和諧相處」。
+            這項行動特別著重在“社會-生態-生產景觀和海景”（SEPLS）概念產生的動態鑲嵌斑塊（馬賽克）景觀，在景觀層面的可持續管理可以協助我們確保生態系統服務和保護生物多樣性，
+            從而支持人類福祉和自然協調的共存。 該倡議是通過日本環境省 (MOEJ) 和聯合國大學可持續發展高等研究所 (UNU-IAS) 的聯合合作發起的。
+          </p>
+          <h3>願景</h3>
+          <p class="card-text">
+            里山的願景是實現與自然和諧相處的社會，即社會經濟活動的維持和發展與自然過程保持一致。
+            通過對包括生物多樣性在內的資源進行可持續利用和管理，人類社會必須想方設法維持穩定的生態系統服務供應，
+            並在不破壞自然環境的情況下持續活動。 近年來，這種可持續管理的景觀方法越來越受到關注，並提出了以里山概念為核心方法。
+          </p>
+          <h3>願景－方法－行動三摺法（Tree-fold Approach）</h3>
+          <p class="card-text">
+            三摺法（a three-fold approach），包括願景、方法及關鍵行動面向。里山倡議的願景是實現人類社會與自然和諧共處；
+            方法有三︰確保多樣化的生態系統服務和價值、整合傳統知識和現代科技、謀求新型態的協同經營體系；
+            關鍵行動面向有五：資源使用控制在環境承載量和回復力之限度內、循環使用自然資源、認可在地傳統和文化的價值和重要性、
+            促進多元權益關係人的參與和合作、貢獻在地社會-經濟成長。
+          </p>
+          <p>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMethods"
+              aria-expanded="false" aria-controls="collapseMethods">
+              六個生態和社會經濟視角
+            </button>
+          </p>
+          <div class="collapse" id="collapseMethods">
+            <div class="card card-body">
+              按照上述方法，以穩定且和諧的方式維護各地景觀．<br>
+              將自然資源的可持續利用和管理付諸實踐應涉及六個生態和社會經濟觀點：<br>
+              1. 在環境的承載能力和恢復力範圍內使用資源<br>
+              2. 循環利用自然資源<br>
+              3. 維護當地和土​​著傳統和文化的價值和重要性<br>
+              4. 多方利益相關者必須參與自然資源和生態系統服務的可持續性及多功能管理<br>
+              5. 對可持續社會經濟的貢獻，包括注重減貧、注意糧食安全、維持可持續生計及持續當地社區的成長<br>
+              6. 提高社區復原力以實現多重效益，包括生態、社會、文化、精神和經濟效益，尤其是通過基於生態系統的氣候變化減緩和適應活動方法<br>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div style="background-color: lightgrey; color:darkslategrey;">
+      <div class="container">
+        <h3>在我們能控制的範圍內，好好生活</h3>
+        <p>
+          走進森林，享受大自然，了解環境，讓地球永遠是我們的家。
+        </p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <!-- FOOTER -->
+    <footer class="bg-secondary">
+      <div class="container">
+        <h3 style="color: white;">Reference</h3>
+        <span style="color: white;">SDGs:</span>
+        <a style="color: white;" href="https://sdgs.un.org/goals" target="_blank">17-SDGs,</a>
+        <a style="color: white;" href="https://futurecity.cw.com.tw/article/1867" target="_blank">17-SDGs-detail,</a>
+        <a style="color: white;" href="https://sdg.gov.taipei" target="_blank">節能減碳案例-台北永續行動網</a>
+        <br>
+        <span style="color: white;">Carbon Sink:</span>
+        <a style="color: white;" href="https://www.digiknow.com.tw/knowledge/6369d29deec0f"
+          target="_blank">Net-Zero-Emission 就享知</a>
+        <a style="color: white;" href="https://greenimpact.cc/zh-TW/article/5j38l/綠電太難買-想彎道超車-三分鐘帶你看懂森林碳權"
+          target="_blank">森林碳權 綠學院</a>
+        <br>
+        <span style="color: white;">Satoyama:</span>
+        <a style="color: white;" href="https://satoyama-initiative.org/concept/satoyama-initiative/"
+          target="_blank">satoyama-initiative</a>
+        <a style="color: white;" href="https://conservation.forest.gov.tw/0002047" target="_blank">林務局－里山倡議</a>
+        <p class="float-end"><a href="#" style="color: white;">Back to top</a></p>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
